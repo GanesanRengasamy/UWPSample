@@ -14,6 +14,8 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
 
 namespace App2
 {
@@ -29,6 +31,7 @@ namespace App2
         public App()
         {
             this.InitializeComponent();
+            AppCenter.Start("9a472eb7-f6a3-434b-9c38-d7811cc1d5e2", typeof(Analytics));
             this.Suspending += OnSuspending;
         }
 
