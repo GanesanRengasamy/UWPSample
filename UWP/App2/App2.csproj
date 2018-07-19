@@ -131,6 +131,9 @@
     <PackageReference Include="Syncfusion.SfRibbon.UWP">
       <Version>16.2.0.41</Version>
     </PackageReference>
+   <PackageReference Include="Syncfusion.SfGrid.UWP">
+      <Version>16.2.0.41</Version>
+    </PackageReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
